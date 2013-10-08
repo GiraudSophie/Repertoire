@@ -14,7 +14,7 @@ public class TestRepertoire {
 		g1.ajoutePersonne(perso2);
 		g1.ajoutePersonne(new Personne("MARTIN", "Léa", new Adresse("8 av. 8 mai 45","91150","ETAMPES"), "0102030405"));
 		g1.ajoutePersonne(new Personne("LEPONT", "Arthur", new Adresse("59 av. de Saclas","91150","ETAMPES"), "0102030405"));
-		g1.ajoutePersonne(new Personne("LEPONT", "Anaé", new Adresse("59 av. de Saclas","91150","ETAMPES"), "0102030405"));
+		//g1.ajoutePersonne(new Personne("LEPONT", "Anaé", new Adresse("59 av. de Saclas","91150","ETAMPES"), "0102030405"));
 	}
 } 
 
