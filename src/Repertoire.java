@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 
 public class Repertoire {
-private ArrayList<Personne> liste;
+	private ArrayList<Personne> liste;
 	
 	public Repertoire() {
 		liste = new ArrayList<Personne>();
@@ -14,6 +14,11 @@ private ArrayList<Personne> liste;
 	
 	public String toString() {
 		String res = "";
+		/*int i;
+		for(i=0;i<liste.size();i++) {
+			res = res + liste.get(i).toString() + "\n";
+		}*/
+		
 		for(Personne p : liste) {
 			res = res + p + "\n";
 		}
@@ -28,13 +33,5 @@ private ArrayList<Personne> liste;
 			}
 		}
 		return res;
-	}
-
-	public Personne recherchePersonne(int i) {
-		return(liste.get(i));
-	}
-
-	public int taille() {
-		return liste.size();
 	}
 }
